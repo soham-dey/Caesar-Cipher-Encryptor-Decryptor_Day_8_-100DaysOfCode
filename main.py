@@ -33,7 +33,7 @@ while confirmation=='yes':
   input_shift = int(input("Type the shift number:\n"))
   input_shift = input_shift % 26
   ceasar(input_text, input_shift)
-  confirmation=input("Do you want to continue? Type 'yes' or 'no'.")
+  confirmation=input("Do you want to continue? Type 'yes' or 'no': \n")
 else:
   print("The program has stopped. Good Bye!")
 
